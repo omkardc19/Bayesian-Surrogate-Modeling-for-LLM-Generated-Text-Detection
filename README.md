@@ -1,2 +1,2 @@
-# CS772
-detect-gpt
+# Bayesian Surrogate Modelling for LLM-Generated Text Detection
+
