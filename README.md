@@ -22,6 +22,7 @@ $$ f \sim GP(0, k(\cdot, \cdot)) $$
 Deviating from standard kernels, a custom similarity measure based on **BERTScore** is implemented to capture the semantic relationships between candidate texts:
 
 $$ k(x_i, x_j) = \alpha \cdot S_{ij} + \beta $$
+
 where $S_{ij}$ denotes the semantic similarity computed via BERTScore, and $\alpha, \beta$ are optimizable hyperparameters.
 
 Active sampling is guided by the uncertainty estimates derived from the GP. At each iteration, the candidate exhibiting the highest predictive variance is selected for querying until a predefined convergence threshold is achieved.
