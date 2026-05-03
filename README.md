@@ -77,3 +77,6 @@ While the BERT-based surrogate enhancements confer substantial improvements in d
 
 ## Conclusion
 This investigation underscores the efficacy of integrating semantic similarity measures (e.g., BERTScore) into the kernel design of Bayesian surrogate models for text detection. Furthermore, it demonstrates that active sampling and kernel optimization can yield significant performance gains under constrained query budgets. While the diffusion-inspired perturbation mechanism exhibited mixed efficacy, it highlights a promising architectural direction for future refinement.
+
+
+***Google Jules was used to generate this README file based on the project report and the code*** 
